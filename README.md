@@ -1,7 +1,7 @@
 # Проектная работа Match Tracker
 
 Данный проект выполнен как тестовое задание
-Размещёно на github-pages по ссылке: https://nevedomskiy.github.io/Rick-and-Morty/
+Размещёно на github-pages по ссылке: https://nevedomskiy.github.io/Match-Tracker/
 
 Чтобы запустить проект локально:
 
