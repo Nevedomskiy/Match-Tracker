@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "types": ["node", "jest"],
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["src/pages"],
+      "@components": ["src/components"],
+      "@ui": ["src/components/ui"],
+      "@ui-pages": ["src/components/ui/pages"],
+      "@utils-types": ["src/utils/types"],
+      "@store": ["src/services/store/store.ts"],
+      "@sliceMatch": ["src/services/slices/matchesSlice.ts"],
+      "@api": ["src/utils/math-api.ts"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 42px 42px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (width <=1440px) {
+  .app {
+    padding: 20px;
+  }
+}
+
+@media screen and (width <=700px) {
+  .app {
+    padding: 10px;
+  }
+}

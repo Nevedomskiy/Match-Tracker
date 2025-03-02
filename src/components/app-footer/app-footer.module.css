@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color: var(--lt-color-white-100);
+  font-size: var(--text-size-xl);
+  text-align: center;
+  background-color: var(--lt-color-black-300);
+}
+
+@media (max-width: 700px) {
+  .footer {
+    padding: 10px 0;
+  }
+}
