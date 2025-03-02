@@ -38,3 +38,13 @@ baseUrl - https://app.ftoyd.com/fronttemp-service
 Figma макет:
 
 https://www.figma.com/design/W16WfB86EgqtcuuqLCYjgF/Test-assignment?node-id=113-741&t=hBEv4NU9JHRNcUKm-4
+
+### Порядок выполнение
+
+- Через swagger узнал какие данные поступают от api
+- Написал типы TypeScript /src/utils/types.ts
+- Написал запросы к api /src/utils/math-api.ts
+- Написал Redux хранилище и подключил его к проекту /src/services/slices/matchesSlice.ts, /src/services/store/store.ts
+- Приступил к изучению макета Figma, вынес необходимые цвета в css переменные, скачал изображения и шрифты
+- Начал верстать сверху вниз, сразу подгоняя размеры под десктоп и мобильные устройства
+- Подключил к jsx функционал запроса данных
